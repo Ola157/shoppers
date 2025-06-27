@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.footer-links {
+    margin: 30px 0;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-container {
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border: 2px solid #ebebeb;
+}
+
+.copy-right {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.copy-right hr {
+    width: 80%;
+    height: 3px;
+    background: #c7c7c7;
+    box-sizing: 10px;
+    border: none;
+}
+
+.copy-right p {
+    margin: 30px;
+    margin: 40px 0;
+    font-size: 16px;
+}

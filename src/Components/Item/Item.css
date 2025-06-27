@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item img {
+    height: 350px;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.name {
+    font-size: 14px;
+    width: 280px;
+
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+
+}
+
+.old-price {
+    text-decoration: line-through;
+}

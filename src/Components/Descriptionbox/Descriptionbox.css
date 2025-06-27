@@ -1,0 +1,36 @@
+.description-box {
+    margin-top: 120px;
+}
+
+.title {
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.title div {
+    height: 100%;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.review-title {
+    border-left: 1px solid gray;
+    color: gray;
+}
+
+.description-content {
+    padding: 50px 30px;
+    border: 1px solid gray;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 16px;
+    color: rgb(41, 40, 40);
+}
