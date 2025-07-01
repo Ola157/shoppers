@@ -1,0 +1,4 @@
+.cartitems {
+    display: flex;
+    flex-direction: column;
+}
